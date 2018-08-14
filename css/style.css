@@ -1,0 +1,258 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #4b4a45, #4b4a45 220px, #fff 211px, #fff)
+}
+
+h3 {
+  padding: 5px 0;
+  color: #333
+}
+
+img {
+  display: block;
+}
+
+ul {
+  list-style-image: url(../img/bullet.png)
+}
+
+form input {
+  border: none;
+  display: block
+}
+
+form button {
+  border: none;
+  background: #fff
+}
+
+table {
+  font-size: 13px
+}
+
+.header a {
+  display: block;
+  text-align: center;
+  text-decoration: none
+}
+
+.header > div {
+  display: inline-block
+}
+
+.nav a {
+  text-decoration: none
+}
+
+.nav a:hover {
+  text-decoration: underline
+}
+
+.left h2 {
+  background: #ebebeb;
+  color: #333
+}
+
+.left li a {
+  text-decoration: none;
+  color: #eed588
+}
+
+.left li a:hover {
+  color: #fff
+}
+
+.center {
+  margin-left: 220px;
+  margin-right: 260px;
+  padding: 0 20px
+}
+
+.center img {
+  width: 100%
+}
+
+.center img[src*="htmlsamp"] {
+  width: 70%
+}
+
+.center > div:nth-child(2) > div,
+.center > div:nth-child(5) > div {
+  color: #fff
+}
+
+.center a:hover,
+.right a:hover,
+.footer a:hover {
+  color: red
+}
+
+.right > div:last-child li:nth-child(odd) {
+  list-style-image: url(http://htmlbook.ru/files/images/faq/faq_img_2.png)
+}
+
+.right > div:last-child li:nth-child(even) {
+  list-style-image: url(http://htmlbook.ru/files/images/faq/faq_background.png)
+}
+
+.footer {
+  padding: 10px 5px;
+  border-top: 2px solid #ccc;
+  background: linear-gradient(to bottom, #ebebeb, #fff)
+}
+
+.footer li {
+  list-style: none
+}
+
+.footer li a {
+  color: gray
+}
+
+.footer h5 {
+  margin: 0
+}
+
+.footer div {
+  margin-left: 30px
+}
+
+.footer ul {
+  padding-left: 10px
+}
+
+.footer p {
+  margin-bottom: 0
+}
+
+.icon {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url(../img/icon-menu.png)
+}
+
+.icon-main {
+  background-position: -96px 0
+}
+
+.icon-css {
+  background-position: -32px 0
+}
+
+.icon-site {
+  background-position: -64px 0
+}
+
+.w-90 {
+  width: 90%
+}
+
+.w-80 {
+  width: 80px
+}
+
+.w-220 {
+  width: 220px
+}
+
+.w-260 {
+  width: 260px
+}
+
+.h-17 {
+  height: 17px
+}
+
+.h-70 {
+  height: 70px
+}
+
+.h-400 {
+  height: 400px
+}
+
+.pd-0-5 {
+  padding: 0 5px
+}
+
+.pd-5 {
+  padding: 5px
+}
+
+.pd-5-0 {
+  padding: 5px 0
+}
+
+.m-0-15 {
+  margin: 0 15px
+}
+
+.m-0-au {
+  margin: 0 auto
+}
+
+.mt-5 {
+  margin-top: 5px
+}
+
+.ml-5 {
+  margin-left: 5px
+}
+
+.m-20-20-0-0 {
+  margin: 20px 20px 0 0
+}
+
+.m-20-auto {
+  margin: 20px auto
+}
+
+.bs-borderbox {
+  box-sizing: border-box
+}
+
+.b-left {
+  border-left: 1px solid #ccc
+}
+
+.ov-scroll {
+  overflow-y: scroll
+}
+
+.fl-l {
+  float: left
+}
+
+.fl-r {
+  float: right
+}
+
+.clearfix {
+  clear: both
+}
+
+.ta-center {
+  text-align: center
+}
+
+.bg-dark-gray {
+  background: #4b4a45
+}
+
+.bg-nav {
+  background: #eedfac
+}
+
+.bg-btn {
+  background: #f3eddf
+}
+
+.bg-gray {
+  background: #e0e0e0
+}
+
+.bg-red {
+  background: #e82c2e
+}
